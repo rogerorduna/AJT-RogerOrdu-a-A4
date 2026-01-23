@@ -1,0 +1,30 @@
+Exercici 1. 2/2
+
+Exercici 2. 1,5/2
+
+Tens un error, fixa't que fas
+
+  def analitzar_element(llista,element):
+    nombre_apareix =0
+    for e in llista:
+        if e == element:
+            nombre_apareix +=1
+    
+    hi_es = False
+
+    hi_es = True      ------------------------> Per tant, hi_es sempre val True!
+    
+    if hi_es:
+      print("True")
+    else:
+      print("false")
+
+    return hi_es, nombre_apareix
+
+Exercici 3. 2/2
+
+Exercici 4. 2/2
+
+Exercici 5. 0/2
+
+Nota final: 7,5
